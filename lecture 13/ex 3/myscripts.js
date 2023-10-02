@@ -1,0 +1,10 @@
+// Create variable header
+let header = (
+  <header className="header">
+    <h1>Buat Header Menggunakan JSX</h1>
+    <p>Tutorial JSX Sederhana</p>
+  </header>
+);
+
+// Render element to the DOM
+ReactDOM.render(header, document.getElementById("app"));
